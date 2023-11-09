@@ -10,6 +10,11 @@ Objects or entities should be open for extension but closed for modification.
 
 ## L-Liskov substitution principle
 The Liskov Substitution Principle (LSP) is a fundamental principle in object-oriented programming that states that objects of a superclass should be able to be replaced with objects of a subclass without affecting the correctness of the program.
+Substitute the object without breaking the code.
+we swap thw parent object with child object the program should not break
+class c have three child classes c1 c2 c3 if replace with parent object with child object either c1,c2 or c3 program should not break
+we can not down sizing the subclass
+    1. Put only very generic method to all 
 
 ## I-Interface Segregation Principle
 Interface segregation principle states:
